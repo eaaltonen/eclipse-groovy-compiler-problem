@@ -1,2 +1,6 @@
 # Gedit temp files
 *~
+
+# Gradle
+.gradle
+
