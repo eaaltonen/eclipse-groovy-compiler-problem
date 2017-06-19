@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    // Use the latest Groovy version for building this library
+    compileOnly 'org.checkerframework:checker:2.1.11'
+}
